@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 30px;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 20px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.kategori_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 30px 30px 0 30px;
+}
+
+.kategori a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.kategori {
+  border: solid 4px lightgray;
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+}
+
+.kategori:hover {
+  background-color: grey;
+  border: solid 4px gray;
+  font-weight: bold;
+}
+
+.underkategori {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.underkategori a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+
+.underkategori a:hover {
+  text-decoration: underline;
+}
+
+#lobebukser img {
+  width: 500px;
+}
+
+.produktliste_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.produktliste_grid img {
+  width: 200px;
+}
+
+.product {
+  padding: 10px;
+}
+
+.sub {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sale {
+  display: flex;
+  position: relative;
+  right: -60%;
+  top: -53%;
+}
+
+.sale_p {
+  position: absolute;
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.sold {
+  display: flex;
+  position: relative;
+  top: -103%;
+}
+
+.sold_p {
+  position: absolute;
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.sold_billede {
+  opacity: 0.5;
+}
+
+form {
+  padding: 20px 60px;
+}
+
+.infoform {
+  background-color: lightgray;
+
+  border-radius: 20px;
+}
+
+.produkt_grid {
+  padding: 20px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}

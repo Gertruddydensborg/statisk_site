@@ -1,0 +1,66 @@
+@media (min-width: 900px) {
+  .kategori_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    padding: 30px 100px 0 100px;
+  }
+
+  .underkategori {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 130px;
+  }
+
+  .produktliste_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .produktliste_grid img {
+    width: 200px;
+  }
+
+  .product {
+    padding: 50px;
+  }
+
+  .sale {
+    display: flex;
+    position: relative;
+    right: -80%;
+    top: -57%;
+  }
+
+  .sale_p {
+    position: absolute;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+  }
+
+  .sold {
+    display: flex;
+    position: relative;
+  }
+
+  .sold_p {
+    position: absolute;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+  }
+
+  .infoform {
+    background-color: lightgray;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    border-radius: 20px;
+  }
+}
