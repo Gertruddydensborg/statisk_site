@@ -17,9 +17,11 @@
             <a href="kategori.html"> Kategori</a>
             <a href="produktliste.html">Produktliste</a>
         </header>
-        <h1>Kategorier</h1>
         <section>
-            <div class="underkategori">
+            <h1>Kategorier</h1>
+            <div class="kategori_container kategori_grid"></div>
+
+            <!-- <div class="underkategori">
                 <a href="kategori.html">Kategori</a>
                 <a href="produktliste.html">Brands</a>
                 <a href="produktliste.html">Sæsoner</a>
@@ -44,14 +46,20 @@
                 <div class="kategori">
                     <a href="produktliste.html">Personal Care</a>
                 </div>
-            </div>
-
+            </div> -->
         </section>
-
-
-
     </main>
+    <script src="kategori.js"></script>
 
 </body>
 
 </html>
+<template class="kategori_template">
+    <article>
+        <div class="kategori">
+            <a class="kategori_link" href=""></a>
+
+        </div>
+        <div class="underkategori_container"></div>
+    </article>
+</template>

@@ -22,40 +22,29 @@
             <h1>
                 Produkt
             </h1>
-            <div class="produkt_grid">
-                <div id="lobebukser">
-                    <img src="assets/1573.webp" alt="Bukser">
-                </div>
-                <div class="infoform">
-                    <form>
-                        <label>
-                            <h2>Sahara Team India Fanwear <br>Round Neck Jersey</h2>
-                            <p class="sub">T-shirt | Puma</p>
-
-                            <h3>Vælg størrelse</h3>
-
-                            <select name="size">
-                                <option value="S">S</option>
-                                <option value="M">M</option>
-                                <option value="L">L</option>
-                                <option value="XL">XL</option>
-                            </select>
-                        </label>
-                        <button>Føj til kurv</button>
-                    </form>
-                </div>
-                <h2>Produkt information</h2>
-                <h3>Løbebukser</h3>
-                <p>Grå træningsbukser er lette, åndbare og perfekte til både træning og afslapning. Justerbar talje,
-                    lommer, og alsidigt design. Ideelle til indendørs og udendørs aktiviteter.
-                </p>
-
-            </div>
+            <p>description</p>
+            <img src="mage_url" alt="Billede af name">
+            <div class="produkt_container"></div>
 
         </section>
 
     </main>
+    <!-- <script src="script.js"></script> -->
+    <script src="produkt.js"></script>
 
 </body>
 
 </html>
+
+<template class="produkt_template">
+    <article class="produkt_article">
+        <div class="produkt_image_container">
+            <img class="produkt_image" />
+        </div>
+        <h3 class="produkt_name"></h3>
+        <p class="produkt_tagline">Drink good beer</p>
+        <p class="produkt_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius et aspernatur
+            exercitationem placeat ratione facere harum quos porro ducimus rerum necessitatibus, laborum quaerat esse
+            eaque illo iusto aliquam! Nulla, dicta.</p>
+    </article>
+</template>
